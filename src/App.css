@@ -170,3 +170,118 @@ color: #555555;
     width: 14px;
     padding-left: 25px;    
 }
+.bg-modal{
+    width: 320px;
+    height: 212px;
+    background-color: #323751;
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display:block;
+    border: 1px solid #363636;
+    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px 20px 0px 0px;
+      
+}
+#fechar{
+    height: 25.629146575927734px;
+    width: 79.84980010986328px;
+    margin-top: -13px;       
+    margin-right: 5px;
+    margin-left: 200px;      
+    border-radius: 4px;    
+    background: #FFFFFF;        
+    border: 0.5px solid #E8E8E8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;    
+
+    font-size: 12px;
+    line-height: 14px;
+    color:#555555; 
+}
+h4{
+    margin-left: 20px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #EFEFEF;
+
+}
+p{
+    margin-left: 20px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #EFEFEF;
+
+}
+.cpmSenha{
+    height: 55px;
+    width: 45px;
+    left: 0px;
+    top: 0px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    color: #EFEFEF;
+    background: #656982;
+
+}
+.confirmar{
+    display: flex;
+    align-items: center;
+}
+#pop-confirmar{
+    height: 24px;
+    width: 95px;
+    left: 9px;
+    top: 0px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 116px;
+    margin-top:30px;
+    
+    left: 8.65%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+
+
+    text-align: center;
+    letter-spacing: 0.0357143em;
+
+    color: #323751;
+
+}
+#dtlh-confirmar { 
+ margin-left: -105px;
+ margin-top: 30px;
+}
+#concluido{
+    width: 320px;
+    height: 212px;  
+    margin-left: 15px;  
+    position: fixed;
+    z-index: 2;
+    top: -100%;
+    display:block;
+   
+}
