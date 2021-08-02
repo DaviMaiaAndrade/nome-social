@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import'./App.css';
-import {IoIosArrowBack,IoIosArrowForward} from "react-icons/io";
 import { HiX } from "react-icons/hi";
-
+import Back from "./Vector.svg";
+import Prox from "./Vector2.svg";
 
 
 function abrirModal(){        
-    document.getElementById('modal').style.top="350px";
+    document.getElementById('modal').style.top="380px";
 }
 
 function fecharModal(){        
@@ -45,8 +45,8 @@ function Home(){
             <input id="input"type="text" placeholder="Seu nome"/>
             <br/>
             <div className="botoes">
-                <button className="voltar"><IoIosArrowBack id="back"/><a>Voltar</a></button>
-                <button onClick={abrirModal} className="proximo">Próximo<IoIosArrowForward id="prox"/></button>
+                <button className="voltar"><img src={Back}/><a>Voltar</a></button>
+                <button onClick={abrirModal} className="proximo"><a>Próximo</a><img src={Prox}/></button>
             </div>            
         </div>
         <div className="bg-modal" id="modal">

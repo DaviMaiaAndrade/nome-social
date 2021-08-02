@@ -21,9 +21,9 @@
 #cancelar{
     height: 25.629146575927734px;
     width: 79.84980010986328px;
-    margin-top: 12px;
-    margin-right: 5px;
-    margin-left: 200px;      
+    margin-top: 12px;   
+    margin-left: 224px; 
+    margin-right: 16.15px;     
     border-radius: 4px;    
     background: #FFFFFF;        
     border: 0.5px solid #E8E8E8;
@@ -105,8 +105,8 @@
 }
 .final{
     width: 320px;
-    height: 387px;
-    padding-top: 211px;
+    height: 357px;
+    margin-top: 211px;
     background: #FFFFFF;        
 }
 #input{
@@ -128,14 +128,13 @@
 .botoes{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding:40px;
+    align-items: center;      
+    height: 357px; 
 }
 .voltar{
     margin-bottom: 24px;
-    margin-top: 217px;
-    margin-left: 16px;
-    padding-left: 40px;
+    margin-top: 217px;   
+    margin-left: 0px;    
     height: 36px;
     width: 136px;
     left: 0px;
@@ -157,12 +156,17 @@
 .voltar a{
     width: 34px;
     height: 14px;
+    margin-left: 29px;
+    margin-right: 52px;
+}
+.voltar img{
+    margin-left: 15px;     
 }
 .proximo{
     margin-bottom: 24px;
     margin-top: 217px;
+    margin-right: 16px;
     margin-left: 16px;
-    padding-left: 40px;
     height: 36px;
     width: 136px;
     left: 0px;
@@ -181,12 +185,20 @@
     display: flex;    
     align-items: center;
 }
+.proximo a{
+    width: 34px;
+    height: 14px;
+    margin-left: 29px;
+    margin-right: 52px;
+}
+.proximo img{
+    margin-left: -11px;
+}
 
 #back{
     color: #5F82A6;      
-    height: 14px;
-    width: 14px; 
-    padding-right: 25px;   
+    height: 8px;
+    width: 14px;     
 }
 #prox{
     color: #5F82A6;    
@@ -247,14 +259,14 @@ p{
 
 }
 .cpmSenha{
-    height: 55px;
-    width: 45px;
+    height: 53px;
+    width: 41px;
     left: 0px;
     top: 0px;
     border-radius: 3px;
     border: none;
     margin-right: 15px;
-    margin-left: 15px;
+    margin-left: 18px;
     text-align: center;    
     font-style: normal;
     font-weight: 900;
@@ -306,6 +318,10 @@ p{
     position: fixed;
     z-index: 2;
     top: -100%;
-    display:block;
-   
+    display:block;  
+}
+
+#modal{
+    width: 318px;
+    height: 210px;
 }
