@@ -37,6 +37,19 @@
     line-height: 14px;
     color:#555555; 
 }
+#cancelar a{
+    height: 12px;
+    width: 40px;
+    left: 29px;   
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    line-height: 12px;
+
+    text-align: center;
+
+}
 #close{
     color: #323751;    
     display: flex;
@@ -45,13 +58,17 @@
     width: 79px;
  }
 #como{
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 130%;
-margin-top: 23px;
-margin-left: 23px;
-color: #555555;
+    height: 16px;
+    width: 204px;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    margin-top: 23px;
+    margin-left: 23px;
+    color: #555555;
+    padding-left: 0.8px;
+    padding-top: 1.6px;
 }
 #logo{
     position: absolute;
@@ -84,18 +101,20 @@ color: #555555;
 }
 #nome{
     margin-left: 18px;
+    font-size: 20px;
 }
 .final{
     width: 320px;
-    height: 357px;
+    height: 387px;
     padding-top: 211px;
     background: #FFFFFF;        
 }
 #input{
-    height: 40px;
-    width: 284px;
+    height: 36.4px;
+    width: 278.4px;
     top: 16px;
-    margin-left: 15px;
+    margin-left: 18px;
+    margin-right: 18px;
     border-radius: 5px;   
     bottom: 3.45%;
     border: 0.8px solid #C4C4C4;
@@ -110,12 +129,13 @@ color: #555555;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:40px;
 }
 .voltar{
     margin-bottom: 24px;
     margin-top: 217px;
     margin-left: 16px;
-    padding-left: 20px;
+    padding-left: 40px;
     height: 36px;
     width: 136px;
     left: 0px;
@@ -133,6 +153,10 @@ color: #555555;
     color: #363636;
     display: flex;
     align-items: center;
+}
+.voltar a{
+    width: 34px;
+    height: 14px;
 }
 .proximo{
     margin-bottom: 24px;
